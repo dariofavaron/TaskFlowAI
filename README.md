@@ -1,80 +1,59 @@
-# TaskFlowAI - README
+# Task Management Integration Application
 
-## App Specifications v1.0
+## Project Overview
+This web application integrates a Large Language Model (LLM) with a Notion-based knowledge base to enhance task management. It aims to improve decision-making and task efficiency through advanced user-LLM interactions.
 
-### Project Overview
-TaskFlowAI is a web application designed to integrate a Large Language Model (LLM) with a Notion-based knowledge base. Its aim is to enhance task management, decision-making, and efficiency.
+## User Experience
+- **Web Interface**: Accessible via standard web browsers.
+- **Task Management**: Create, modify, update, and categorize tasks.
+- **Data Input**: Enter task-related information through a chat interface.
+- **Task Summarization**: Weekly task summaries with Notion export.
+- **User Draft Interaction**: Approve, edit, or deny LLM-generated drafts.
 
-### User Experience
-- **Web Interface:** Accessible via any standard web browser.
-- **User Interaction Features:**
-  - Task Management: Create, modify, and update tasks.
-  - Data Input: Enter task-related information via chat interface.
-  - Task Summarization: Export weekly task summaries to Notion.
-  - Task Categorization: Group tasks for organized viewing.
-  - User Draft Interaction: Approve, deny, or edit LLM-generated drafts.
-- **Examples of Interactions:**
-  - Create high-priority tasks with due dates.
-  - Change task status.
-  - Generate summaries for specific task types.
-  - Update multiple task tags.
-  - Approve or modify LLM-generated drafts.
+## LLM Capabilities
+- **Task Interaction**: Suggests task modifications based on database insights.
+- **User Support**: Provides draft modification suggestions, proposes efficient follow-up prompts, and recommends task parameters.
+- **Summary Generation**: Automated creation of weekly summaries for Notion.
+- **Knowledge Base Integration**: Accesses Notion for contextual data.
+- **Draft Tracking**: Records user-approved drafts for future reference.
 
-### LLM Capabilities
-- Suggest task modifications based on Task Database insights.
-- User support through draft modification suggestions and critiques.
-- Summary Generation with Notion export functionality.
-- Knowledge Base Integration for contextual data access.
-- Draft Tracking for enhanced future suggestions.
+## Task Parameters
 
-### Task Parameters
-- **Priority:** Urgency level (1 to 100).
-- **Status:** Current state (Open, In Progress, Closed).
-- **Category:** Task type (e.g., Family, Work).
-- **Tags:** Max 5, alphanumeric characters.
-- **Due Date:** Format YYYY-MM-DD.
-- **Creation Date:** Auto-set, format YYYY-MM-DD.
-- **Last Modification:** Auto-update, format YYYY-MM-DD.
-- **Week of Work:** Integer between 1-52.
-- **Proposed Resolution:** Max 500 characters.
-- **Accepted Resolution:** Max 500 characters.
-- **Effort Required:** Estimated hours.
-- **Automation Capability:** Boolean (Yes or No).
+| Parameter             | Description                                   | Validation Rules                           |
+|-----------------------|-----------------------------------------------|--------------------------------------------|
+| Priority              | Indicates the task's urgency level.           | Must be a value from 1 (high priority) to 100 (low priority) |
+| Status                | Current state of the task.                    | Values like Open, In Progress, Closed      |
+| Category              | Type of task (e.g., Family, Work, Personal growth). | Predefined categories in a dropdown       |
+| Tags                  | Keywords for task categorization.             | Max 5 tags; alphanumeric characters        |
+| Due Date              | Deadline for task completion.                 | Future date, format YYYY-MM-DD             |
+| Creation Date         | Date when the task was created.               | Auto-set; format YYYY-MM-DD                |
+| Last Modification     | Date of last task update.                     | Auto-update; format YYYY-MM-DD             |
+| Week of Work          | Week number associated with the task.         | Integer between 1-52                       |
+| Proposed Resolution   | Suggested solution or closure.                | Text input, max 500 characters             |
+| Accepted Resolution   | Resolution agreed upon or implemented.        | Text input, max 500 characters             |
+| Effort Required       | Estimated work effort needed.                 | Integer representing hours                 |
+| Automation Capability | Task suitability for automation.              | Boolean: Yes or No                         |
 
-### Features
-- Efficient Task Management with categorized parameters.
-- Interactive User-LLM Dialogue.
-- Automated Summaries exported to Notion.
-- Notion Integration for context-aware suggestions.
-- CI/CD Workflow for consistent updates.
+## Features
+- Task Management
+- User-LLM Interaction
+- Automated Summaries
+- Knowledge Base Integration
+- CI/CD Workflow
 
-### Technical Framework
-- **GitHub:** Code storage and documentation.
-- **Streamlit:** Interactive UI elements.
-- **Langchain:** Connects LLM to the application.
-- **Notion:** Dynamic knowledge base.
-- **OpenAI:** Large Language Model source.
-- **Database System:** Task data management.
+## Technical Framework
+- **GitHub**: Code storage, documentation, version control.
+- **Streamlit**: User interface.
+- **Langchain**: Connects LLM to the application.
+- **Notion**: Dynamic knowledge base.
+- **OpenAI**: LLM provider.
+- **Database System**: Task data management.
 
-## Milestones and Tasks for First Release
+## How to Contribute
+[Contribution guidelines]
 
-### Milestone 1: Initial Setup and Framework
-- Project initialization, framework selection, environment setup, CI/CD setup, and initial testing setup.
+## License
+[License information]
 
-### Milestone 2: Core Application Structure
-- Wireframe creation, UI development, database and Notion integration, LLM integration, and application structure testing.
-
-### Milestone 3: Task Management Features
-- Task creation module, task categorization, validation rules implementation, and feature testing.
-
-### Milestone 4: User-LLM Interaction
-- Draft interaction system, draft tracking, task suggestion system, and interaction testing.
-
-### Milestone 5: Advanced Features and Testing
-- Automated summary generation, user support features, advanced and comprehensive testing.
-
-### Milestone 6: Final Review and Deployment
-- Final testing and validation, documentation finalization, and deployment.
-
----
-TaskFlowAI – Enhancing Task Management Through AI Integration
+## Contact
+[Contact details]
