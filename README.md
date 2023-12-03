@@ -48,5 +48,5 @@ This web application integrates a Large Language Model (LLM) with a Notion-based
 - **Langchain**: Connects LLM to the application.
 - **Notion**: Dynamic knowledge base.
 - **OpenAI**: LLM provider.
-- **Database System**: MongoDB.
-
+- **Database System**: MongoDB (for task storage).
+- **Vector Database**: Milvus (for the Knowledge repository).

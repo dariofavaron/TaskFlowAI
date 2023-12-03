@@ -28,7 +28,9 @@
 4. Research and select an appropriate database system.
     - **🟢 Result:** _MongoDB_
 5. Evaluate vector databases for knowledge management.
+    - **🟢 Result:** _Milvus_
 6. Finalize database choices based on data retrieval and scalability.
+    - **🟢 Result:** _MongoDB for task storage, Milvus for document and Knowledge repository._
 
 **Task 3: Environment Setup**
 

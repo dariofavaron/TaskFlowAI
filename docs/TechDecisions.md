@@ -1,5 +1,0 @@
-
-
-Framework: Djiango
-
-Database: MongoDB
