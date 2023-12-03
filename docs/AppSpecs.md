@@ -1,4 +1,4 @@
-# **App Specifications v1.0**
+# **App Specifications**
 
 # Project Overview
 
@@ -91,6 +91,8 @@ A web application designed to enhance task management through an integration of 
 - **Notion:** Acts as a dynamic knowledge base.
 - **OpenAI:** Source of the Large Language Model.
 - **Database System**: MongoDB, for task storage and knowledge.
+- **Virtual Development Environment**: GitHub Codespaces, chosen for its simplicity and integration with GitHub, aligning with our current development needs and future plans for Docker containerization.
+- **Deployment**: Docker package
 
 ## Future Features
 

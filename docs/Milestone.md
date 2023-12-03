@@ -35,6 +35,7 @@
 **Task 3: Environment Setup**
 
 1. Decide between GitHub Codespaces or Docker for virtual codespaces.
+    -  **🟢 Result:** _After thorough analysis, we have decided to use **GitHub Codespaces** for the virtual development environment. It aligns well with our need for simplicity and seamless GitHub integration. The project will be structured to be Docker-friendly, allowing for easy future containerization. This decision supports our goal of efficient development with a clear path for scalable distribution._
 2. Configure the selected virtual codespace.
 3. Create documentation for setting up local and staging environments.
 4. List necessary environment variables and setup instructions.
