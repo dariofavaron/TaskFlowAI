@@ -5,27 +5,28 @@
 **Task 1: Project Initialization**
 
 1. Create **`src`**, **`tests`**, and **`docs`** folders in the project directory. 
-   - **🟢 Result:** _Folders created as per project structure requirements._
+    - **🟢 Result:** _Folders created as per project structure requirements._
 2. Write purpose documentation for each standard folder.
-   - **🟢 Result:** _Purpose of each folder clearly documented._
+    - **🟢 Result:** _Purpose of each folder clearly documented._
 3. Draft **`README.md`** and **`CONTRIBUTING.md`** files outlining project contribution guidelines and progress reporting.
     - **🟢 Result:** _README and CONTRIBUTING guidelines drafted._
 4. Initialize Git repository with an initial commit.
-   - **🟢 Result:** _Repo public online [TaskFlowAI](https://github.com/dariofavaron/TaskFlowAI)._
+    - **🟢 Result:** _Repo public online [TaskFlowAI](https://github.com/dariofavaron/TaskFlowAI)._
 5. Define branch naming conventions and commit message guidelines.
-   - **🟢 Result:** _Branch naming and commit guidelines established in docs README file._
+    - **🟢 Result:** _Branch naming and commit guidelines established in docs README file._
 6. Set up a project dashboard for tracking progress in real-time.
-   - **🟢 Result:** _Dashboard set up at [Project Dashboard](https://github.com/users/dariofavaron/projects/3/views/2)._
+    - **🟢 Result:** _Dashboard set up at [Project Dashboard](https://github.com/users/dariofavaron/projects/3/views/2)._
 
 **Task 2: Framework Selection**
 
 1. Conduct research to identify suitable web frameworks.
-   - **🟢 Result:** _researched the 5 different most commen frameworks_
+    - **🟢 Result:** _researched the 5 different most commen frameworks_
 2. Compare frameworks based on performance, compatibility, and scalability.
-   - **🟢 Result:** _created a document: \docs\technicalDecisions\FrameworkAnalysis.md_
+    - **🟢 Result:** _created a document: \docs\technicalDecisions\FrameworkAnalysis.md_
 3. Select the most suitable web framework.
-   - **🟢 Result:** _Django, based on overall alignment with project needs and technical stack._
+    - **🟢 Result:** _Django, based on overall alignment with project needs and technical stack._
 4. Research and select an appropriate database system.
+    - **🟢 Result:** _MongoDB_
 5. Evaluate vector databases for knowledge management.
 6. Finalize database choices based on data retrieval and scalability.
 

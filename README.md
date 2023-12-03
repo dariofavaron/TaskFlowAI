@@ -43,17 +43,10 @@ This web application integrates a Large Language Model (LLM) with a Notion-based
 
 ## Technical Framework
 - **GitHub**: Code storage, documentation, version control.
+- **Framework**: Django.
 - **Streamlit**: User interface.
 - **Langchain**: Connects LLM to the application.
 - **Notion**: Dynamic knowledge base.
 - **OpenAI**: LLM provider.
-- **Database System**: Task data management.
+- **Database System**: MongoDB.
 
-## How to Contribute
-[Contribution guidelines]
-
-## License
-[License information]
-
-## Contact
-[Contact details]
